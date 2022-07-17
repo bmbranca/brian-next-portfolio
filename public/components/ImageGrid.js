@@ -1,7 +1,10 @@
 import React from "react";
+import Image from "next/image";
+import { projectData } from "./project-data";
+import ProjectCard from "./ProjectCard";
 
-export default function ImageGrid(){
-    return(
-        <h1>Image Grid</h1>
-    )
+export default function ImageGrid() {
+  return (
+<ProjectCard/>
+  );
 }
