@@ -70,7 +70,11 @@ export const Project = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
-  max-width: 45%;
+  max-width: 25%;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  margin: 2em;
+  padding-bottom: 1em;
 `;
 
 export const IconContainer = styled.div`
@@ -79,13 +83,19 @@ export const IconContainer = styled.div`
 `;
 
 export const Git = styled(Github)`
-  width: 50px;
-  height: 50px;
+  width: 25px;
+  height: 25px;
   margin-right: 1em;
 `;
 
 export const ViewSite = styled(ViewDesktop)`
-  width: 50px;
-  height: 50px;
+  width: 25px;
+  height: 25px;
   margin-left: 1em;
 `;
+
+export const Wrapper = styled.div`
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+`

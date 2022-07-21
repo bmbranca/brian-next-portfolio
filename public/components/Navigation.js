@@ -9,7 +9,12 @@ export default function Navigation() {
 
   return (
     <Nav>
-      <NavLogo></NavLogo>
+      <NavLogo>
+        {" "}
+        <Link href="/">
+          <a>BB</a>
+        </Link>
+      </NavLogo>
       <NavList>
         <li style={styles}>
           {" "}
